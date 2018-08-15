@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>ad8ecd04-a23e-4fbd-9eaa-889d82ab7107</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FeatureBits.Core" Version="0.4.0-prerelease-1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="dotnet-fbit" Version="0.4.0-prerelease-1" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="*" />
+  </ItemGroup>
+
+</Project>
